@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-scroll';
 import img from './../assets/profile2.jpg';
+
 const Home = () => {
   const [textColor, setTextColor] = useState('PaleTurquoise');
 
@@ -38,18 +40,22 @@ const Home = () => {
           <p className="text-[#8892b0] py-4 max-w-[700px]">
             A software engineer who specializes in building web applications.
             <br />
-            {/* Delivering highly executed front-end user experiences by paying close attention to the nuances of design,
-            optimization, and performance.  */}
             Passionate about creating seamless user experiences through efficient front-end architecture, performance
             optimization, and modern development best practices. Experienced in backend development and cloud-based
             solutions to deliver scalable and maintainable applications.
           </p>
           <div>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-              View Work
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3 " />
-              </span>
+            <button>
+              <Link
+                to="work"
+                smooth={true}
+                duration={500}
+                className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+                View Work
+                <span className="group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3 " />
+                </span>
+              </Link>
             </button>
           </div>
         </div>
