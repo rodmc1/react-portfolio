@@ -201,7 +201,7 @@ export const skillsData = [
   },
   {
     id: 20,
-    name: 'Microsoft 365',
+    name: 'Microsoft D365',
     image: D365,
     github: '',
     live: ''

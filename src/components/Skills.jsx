@@ -14,7 +14,6 @@ import { skillsData } from '../data/data';
 const Skills = () => {
   return (
     <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
-      {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">Skills</p>
@@ -23,19 +22,11 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           {skillsData.map(skill => (
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500" key={skill.id}>
-              <img className="w-20 mx-auto" src={skill.image} alt="HTML icon" />
-              <p className="my-4">{skill.name}</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col items-center justify-center h-32">
+              <img className="w-20" src={skill.image} alt={`${skill.name} icon`} />
+              <p className="mt-2">{skill.name}</p>
             </div>
           ))}
-          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
-            <p className="my-4">HTML</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
-            <p className="my-4">CSS</p>
-          </div> */}
         </div>
       </div>
     </div>
