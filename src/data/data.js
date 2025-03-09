@@ -21,6 +21,10 @@ import Mongo from '../assets/mongo.png';
 import Redux from '../assets/redux.png';
 import Firebase from '../assets/firebase.png';
 import Bootstrap from '../assets/bootstrap.png';
+import Cap from '../assets/cap.png';
+import HANA from '../assets/hana.png';
+import Python from '../assets/python.png';
+import D365 from '../assets/d365.png';
 
 export const data = [
   {
@@ -171,6 +175,34 @@ export const skillsData = [
     id: 16,
     name: 'Firebase',
     image: Firebase,
+    github: '',
+    live: ''
+  },
+  {
+    id: 17,
+    name: 'SAP CAPM',
+    image: Cap,
+    github: '',
+    live: ''
+  },
+  {
+    id: 18,
+    name: 'SAP HANA',
+    image: HANA,
+    github: '',
+    live: ''
+  },
+  {
+    id: 19,
+    name: 'Python',
+    image: Python,
+    github: '',
+    live: ''
+  },
+  {
+    id: 20,
+    name: 'Microsoft 365',
+    image: D365,
     github: '',
     live: ''
   }
