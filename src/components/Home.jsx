@@ -8,8 +8,8 @@ const Home = () => {
   const [textColor, setTextColor] = useState('PaleTurquoise');
 
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
-      <div className="mx-auto px-8 flex justify-center h-full flex flex-row landing-intro">
+    <div name="home" className="w-full h-screen bg-[#0a192f] flex justify-center items-center">
+      <div className="w-full max-w-[1400px] mx-auto px-16 flex flex-col md:flex-row justify-center items-center gap-16">
         <div className="basis-1/5 profile-img">
           <img src={img} alt="test" className="rounded-full max-h-64 drop-shadow-lg saturate-50" />
         </div>

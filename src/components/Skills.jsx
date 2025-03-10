@@ -13,7 +13,7 @@ import { skillsData } from '../data/data';
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full min-h-screen pt-[100px] bg-[#0a192f] text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">Skills</p>
