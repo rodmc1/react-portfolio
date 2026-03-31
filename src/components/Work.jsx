@@ -1,10 +1,7 @@
-import React from 'react';
 import { data } from '../data/data.js';
 
 const Work = () => {
-  // projects file
   const project = data;
-  //setProject(data);
 
   return (
     <div name="work" className="w-full min-h-screen bg-[#0a192f] text-gray-300 py-20">
@@ -31,8 +28,10 @@ const Work = () => {
                     {/* eslint-disable-next-line */}
                     <a href={item.github} target="_blank">
                       <button
-                        className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg">
+                        className={`text-center rounded-lg px-4 py-3 m-2 font-bold text-lg ${
+                          item.github ? 'bg-white text-gray-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                        }`}
+                        disabled={!item.github}>
                         Code
                       </button>
                     </a>

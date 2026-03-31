@@ -1,9 +1,8 @@
-import WorkIm from '../assets/projects/workImg.jpeg';
-import RealEst from '../assets/projects/realestate.jpg';
 import DevSphere from '../assets/projects/ds1.jpg';
 import Aicpa from '../assets/projects/aicpa1.jpg';
 import Wms from '../assets/projects/wms1.png';
 import Delibeery from '../assets/projects/delibeery.png';
+import BrandAI from '../assets/projects/brandai.png';
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
@@ -29,6 +28,15 @@ import D365 from '../assets/d365.png';
 export const data = [
   {
     id: 1,
+    name: 'Brand AI',
+    image: BrandAI,
+    github: '',
+    live: 'https://brand-ai.net/',
+    description:
+      'Brand AI is a web application that enables businesses to connect with influencers worldwide across platforms like TikTok, Instagram, and YouTube through advanced search and detailed creator profiles. As a Frontend Developer, I built features including global influencer search and token management, allowing users to efficiently discover, manage, and collaborate with content creators.'
+  },
+  {
+    id: 2,
     name: 'Dev Sphere',
     image: DevSphere,
     github: 'https://github.com/rodmc1/DevSphere',
@@ -37,7 +45,7 @@ export const data = [
       'DevSphere is a modern web application designed to help developers find job opportunities that match their skills and preferences. Built with Vue.js 3, Tailwind CSS, and Vite, it offers a fast and responsive user experience. The backend is powered by JSON Server, deployed on Render, serving as a lightweight REST API for job listings. The application is fully mobile-friendly and follows a serverless architecture for easy scalability'
   },
   {
-    id: 2,
+    id: 3,
     name: 'AICPA & CIMA',
     image: Aicpa,
     github: '',
@@ -46,7 +54,7 @@ export const data = [
       'This website is provided by the Association of International Certified Professional Accountants. As a member of their developer team, I contributed to developing the front end of the application. This project highlights my expertise in front-end development, teamwork, and delivering solutions that align with organizational goals.'
   },
   {
-    id: 3,
+    id: 4,
     name: 'Warehouse Management System',
     image: Wms,
     github: 'https://github.com/rodmc1/WMS',
@@ -55,7 +63,7 @@ export const data = [
       'The Warehouse Management System (WMS) is application designed to streamline inventory tracking, order management, and warehouse operations. Built with modern web technologies, the system provides an intuitive interface for managing stock levels, processing orders, and optimizing warehouse workflows. As the sole front-end developer of this application, I developed the entire user interface using React JS.'
   },
   {
-    id: 4,
+    id: 5,
     name: 'Delibeery',
     image: Delibeery,
     github: '',
