@@ -57,7 +57,7 @@ export const data = [
     id: 4,
     name: 'Warehouse Management System',
     image: Wms,
-    github: 'https://github.com/rodmc1/WMS',
+    github: '',
     live: 'https://wms.inteluck.com',
     description:
       'The Warehouse Management System (WMS) is application designed to streamline inventory tracking, order management, and warehouse operations. Built with modern web technologies, the system provides an intuitive interface for managing stock levels, processing orders, and optimizing warehouse workflows. As the sole front-end developer of this application, I developed the entire user interface using React JS.'
